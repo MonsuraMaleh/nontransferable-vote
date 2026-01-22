@@ -1,0 +1,17 @@
+[project]
+name = 'nontransferable-vote'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.nontransferable-vote]
+path = 'contracts/nontransferable-vote.clar'
+clarity_version = 3
+epoch = 'latest'
+[repl.analysis]
+passes = []
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'
